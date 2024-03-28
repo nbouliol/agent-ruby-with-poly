@@ -3,15 +3,16 @@
 Eventually update database name and credentials in `.env` file
 
 ```shell
-bundle
-```
-
-```shell
 rbenv shell 3.2.0
 ```
 
 ```shell
-# if the db doest not exist
+bundle
+```
+
+if the db doest not exist
+
+```shell
 rails db:create
 ```
 
