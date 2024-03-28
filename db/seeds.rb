@@ -17,3 +17,13 @@ order2 = Order.create!(label: "pudding")
 
 Address.create(line1: 'rue du temps qui passe', city: 'Paris', zipcode: '75001', addressable: order1)
 Address.create(line1: '96 bld bessieres', city: 'Paris', zipcode: '75017', addressable: order2)
+
+Variant.create!(name: "Variant1")
+Variant.create!(name: "Variant2")
+Variant.create!(name: "Variant3")
+
+
+VariantCluster.create!(name: "VC1")
+VariantCluster.create!(name: "VC2")
+VariantCluster.create!(name: "VC3")
+VariantCluster.create!(name: "VC4")
